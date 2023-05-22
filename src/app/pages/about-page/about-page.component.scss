@@ -1,0 +1,103 @@
+.containerAbout{
+    background: rgb(231,230,230);
+    background: linear-gradient(0deg, rgba(231,230,230,1) 25%, rgba(255,255,255,1) 85%);
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    cursor: default;
+}
+
+.tittle1{
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+.text1{
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.tittle2{
+    font-size: large;
+    font-weight: 600;
+}
+
+.text2{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.txt-color1{
+    background-color: rgba(255, 255, 0, 0.781);
+    padding: 5px;
+    border-radius: 20px;
+    border: black solid;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+.txt-color1:hover{
+    font-size: 18px;
+}
+
+.txt-color2{
+    background-color: rgba(255, 192, 203, 0.884);
+    padding: 5px;
+    border-radius: 20px;
+    border: black solid;
+    border-width: 1px;
+}
+.txt-color2:hover{
+    font-size: 18px;
+}
+
+.txt-color3{
+    background-color: rgba(0, 0, 255, 0.753);
+    padding: 5px;
+    border-radius: 20px;
+    border: black solid;
+    border-width: 1px;
+}
+.txt-color3:hover{
+    font-size: 18px;
+}
+
+
+.txt-color4{
+    background-color: rgba(255, 0, 0, 0.767);
+    padding: 5px;
+    border-radius: 20px;
+    border: black solid;
+    border-width: 1px;
+}
+.txt-color4:hover{
+    font-size: 18px;
+}
+
+.txt-color5{
+    background-color: rgba(255, 166, 0, 0.774);
+    padding: 5px;
+    border-radius: 20px;
+    border: black solid;
+    border-width: 1px;
+}
+.txt-color5:hover{
+    font-size: 18px;
+}
+
+.txt-color6{
+    background-color: rgba(128, 128, 128, 0.74);
+    padding: 5px;
+    border-radius: 20px;
+    border: black solid;
+    border-width: 1px;
+}
+.txt-color6:hover{
+    font-size: 18px;
+}
+
+.imgMe{
+    border-radius: 100%;
+    
+}

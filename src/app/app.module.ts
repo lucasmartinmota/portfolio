@@ -9,6 +9,7 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
 import { TopPageComponent } from './pages/top-page/top-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { ProjectPageComponent } from './pages/project-page/project-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
     MainPageComponent,
     TopPageComponent,
     HomePageComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    ProjectPageComponent
   ],
   imports: [
     BrowserModule,

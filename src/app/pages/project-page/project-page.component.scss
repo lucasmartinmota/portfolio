@@ -1,0 +1,14 @@
+.containerProject{
+    background: rgb(231,230,230);
+    background: linear-gradient(0deg, rgba(231,230,230,1) 25%, rgba(255,255,255,1) 85%);
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    cursor: default;
+    user-select:none
+}
+
+mat-tab-group mat-tab{
+    color: blue;
+}

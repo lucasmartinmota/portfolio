@@ -6,10 +6,16 @@
     margin-right: 50px;
     border-radius: 10px;
     cursor: default;
+    user-select:none
 }
 
-.tittle1{
+.tittle1x{
     font-size: xx-large;
+    font-weight: bold;
+    
+}
+.tittle1{
+    font-size: x-large;
     font-weight: bold;
     
 }
@@ -27,6 +33,7 @@
 .text2{
     font-size: 15px;
     font-weight: 600;
+    margin-right: 100px;
 }
 
 .txt-color1{
@@ -36,9 +43,14 @@
     border: black solid;
     border-width: 1px;
     margin-bottom: 10px;
+    -webkit-transition: font-size 0.4s ease-out;
+    -moz-transition: font-size 0.4s ease-out;
+    -o-transition: font-size 0.4s ease-out;
+    transition: font-size 0.4s ease-out;
 }
 .txt-color1:hover{
     font-size: 18px;
+    margin-right: -21px;
 }
 
 .txt-color2{
@@ -47,20 +59,29 @@
     border-radius: 20px;
     border: black solid;
     border-width: 1px;
+    -webkit-transition: font-size 0.4s ease-out;
+    -moz-transition: font-size 0.4s ease-out;
+    -o-transition: font-size 0.4s ease-out;
+    transition: font-size 0.4s ease-out;
 }
 .txt-color2:hover{
     font-size: 18px;
 }
 
 .txt-color3{
-    background-color: rgba(0, 0, 255, 0.753);
+    background-color: rgba(0, 81, 255, 0.753);
     padding: 5px;
     border-radius: 20px;
     border: black solid;
     border-width: 1px;
+    -webkit-transition: font-size 0.4s ease-out;
+    -moz-transition: font-size 0.4s ease-out;
+    -o-transition: font-size 0.4s ease-out;
+    transition: font-size 0.4s ease-out;
 }
 .txt-color3:hover{
-    font-size: 18px;
+    font-size: 16px;
+    margin-right: -7px;
 }
 
 
@@ -70,6 +91,10 @@
     border-radius: 20px;
     border: black solid;
     border-width: 1px;
+    -webkit-transition: font-size 0.4s ease-out;
+    -moz-transition: font-size 0.4s ease-out;
+    -o-transition: font-size 0.4s ease-out;
+    transition: font-size 0.4s ease-out;
 }
 .txt-color4:hover{
     font-size: 18px;
@@ -81,6 +106,10 @@
     border-radius: 20px;
     border: black solid;
     border-width: 1px;
+    -webkit-transition: font-size 0.4s ease-out;
+    -moz-transition: font-size 0.4s ease-out;
+    -o-transition: font-size 0.4s ease-out;
+    transition: font-size 0.4s ease-out;
 }
 .txt-color5:hover{
     font-size: 18px;
@@ -92,6 +121,10 @@
     border-radius: 20px;
     border: black solid;
     border-width: 1px;
+    -webkit-transition: font-size 0.4s ease-out;
+    -moz-transition: font-size 0.4s ease-out;
+    -o-transition: font-size 0.4s ease-out;
+    transition: font-size 0.4s ease-out;
 }
 .txt-color6:hover{
     font-size: 18px;
@@ -101,3 +134,80 @@
     border-radius: 100%;
     
 }
+
+.flexingItens{
+    display: flex;
+    
+}
+
+.imgLogo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-right: 0;
+    color: transparent;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: -15px;
+    padding-left: 10px;
+    -webkit-transition: color, background-color 0.4s ease-out;
+    -moz-transition: color, background-color 0.4s ease-out;
+    -o-transition: color, background-color 0.4s ease-out;
+    transition: color, background-color 0.4s ease-out;
+}
+
+.imgLogo:hover{
+    color: black;
+    padding-right: 70px;
+    background-color: rgb(167, 166, 166);
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: -15px;
+    padding-left: 10px;
+}
+.logoimgA{
+    width: 42px;
+}
+
+.logoimg{
+    width: 34px;
+    margin-right: 5px;
+}
+
+.tittle1-color{
+    animation: changeColor 3s infinite;
+}
+@keyframes changeColor {
+    0% {
+        color: #7bacf5;
+    }
+    25%{
+        color: #0d57be;
+    }
+    50% {
+        color: #000000;
+    }
+    75% {
+        color: #0d57be;
+    }
+    100% {
+        color: #7bacf5;
+    }
+  }
+
+  .txtCert{
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 500;
+    margin-right: 50px;
+  }
+
+  .txtCert1{
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 500;
+    margin-right: 50px;
+  }
+
